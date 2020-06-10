@@ -48,7 +48,7 @@ class InstaBot:
             names = [name.text for name in links if name.text!='']
             self.driver.find_element_by_xpath('/html/body/div[4]/div/div[1]/div/div[2]/button').click()
             return names 
-my_bot = InstaBot('vaibhavsahay01','nathji2') 
+my_bot = InstaBot('yourusername','yourpassword') 
 my_bot.get_unfollowers()
 
      
